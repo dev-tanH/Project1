@@ -1,0 +1,56 @@
+.main {
+  width: 50%;
+  text-align: center;
+}
+.text .head {
+  font-weight: bold;
+}
+.text .muted {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.description_area {
+  width: 25em;
+  height: 8em;
+  display: block;
+  margin: auto;
+}
+.btn {
+  display: block;
+  background-color: #007fff;
+  color: white;
+  font-weight: bold;
+  padding: 1em;
+  margin: auto;
+  border: none;
+  border-bottom: inset gray 5px;
+  border-radius: 10px;
+  font-size: 1em;
+  margin-top: 0.2em;
+  transition: 0.1s;
+}
+.btn:active {
+  background-color: #0d4985;
+  border-bottom: inset gray 0px;
+  transform: translateY(6px);
+}
+.feedback label {
+  border-radius: 50%;
+  border: solid black 1px;
+  width: 2.5em;
+  height: 2.5em;
+  display: inline-block;
+  overflow: hidden;
+  background-color: yellow;
+}
+.feedback label input {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50%;
+  transform: translatey(-50%);
+}
+#email {
+  margin-bottom: 10px;
+  padding: 5px;
+}

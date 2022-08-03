@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="text">
+        <p class="head">Your feedback helps us improve.</p>
+        <p class="muted">Please let us know about yout chat experience</p>
+      </div>
+      <div class="feedback">
+        <form method="POST" action="http://localhost">
+          <input type="email" name="email" id="email" placeholder="email"/>
+          <br/>
+          <label><input type="radio" name="feedbackValue" class="feedbackValue" value="1" />1</label>
+          <label><input type="radio" name="feedbackValue" class="feedbackValue" value="2" />2</label>
+          <label><input type="radio" name="feedbackValue" class="feedbackValue" value="3" />3</label>
+          <label><input type="radio" name="feedbackValue" class="feedbackValue" value="4" />4</label>
+          <label><input type="radio" name="feedbackValue" class="feedbackValue" value="5" />5</label>
+        </div>
+        <textarea class="description_area" placeholder="Message"></textarea>
+        <button class="btn" type="submit">Send Feedback</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
